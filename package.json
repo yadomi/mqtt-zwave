@@ -1,0 +1,18 @@
+{
+  "name": "mqtt-zwave",
+  "main": "index.js",
+  "author": "Felix Yadomi <felix.yadomi@gmail.com>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "^11"
+  },
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "openzwave-shared": "^1.4.6",
+    "ramda": "^0.26.1"
+  }
+}
