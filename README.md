@@ -2,7 +2,7 @@
 
 ## ⚠️ No stable release are available yet
 
-`mqtt-zwave` is a bridge layer that forward zwave events on a MQTT network.
+`mqtt-zwave` is a bridge layer that forward zwave events on a mqtt network.
 
 It support both status advertising and setting values.
 
