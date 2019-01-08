@@ -5,12 +5,13 @@
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "engines": {
     "node": "^11"
   },
   "dependencies": {
+    "chalk": "^2.4.1",
     "mqtt": "^2.18.8",
     "openzwave-shared": "^1.4.6",
     "ramda": "^0.26.1"
