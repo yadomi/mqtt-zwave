@@ -16,9 +16,11 @@ RUN tar -xzvf archive.tar.gz \
     && make && make install && ldconfig .
 
 WORKDIR /app
-COPY package.json /app
+COPY package.json ./
+COPY yarn.lock ./
 
 RUN yarn install
-RUN apk del build-dependencies
+COPY src src
 
+RUN apk del build-dependencies
 CMD yarn start

@@ -1,5 +1,5 @@
 const { difference, keys } = require('ramda')
-const log = require('./src/log')
+const log = require('./log')
 
 process.on('uncaughtException', error => {
   log('mqtt-zwave', 'error', error.message)
@@ -18,4 +18,4 @@ const guard = () => {
 }
 
 guard()
-require('./src/main')
+require('./main')
